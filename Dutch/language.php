@@ -13,8 +13,8 @@ $lang = array(
 // Number and date formatting
 //
 
-'lang_decimal_point'				=>	'.',
-'lang_thousands_sep'				=>	',',
+'lang_decimal_point'				=>	',',
+'lang_thousands_sep'				=>	'.',
 'lang_time'							=>	'H:i',
 'lang_date'							=>	'j M Y',
 
@@ -24,7 +24,7 @@ $lang = array(
 
 'Bad request'						=>	'Bad request. De pagina die je probeert te vinden bestaat niet of je mag hier gewoon niet zijn.',
 'No view'							=>	'Je hebt geen toestemming om deze pagina te bekijken.',
-'Bad referrer'						=>	'Bad HTTP_REFERER. Je bent naar deze pagina gestuurd vanuit een onbekende bron. Als dit probleem zich blijft voordoen, kan je best controleren of \'Root URL\' correct staat geconfigureerd in de Backstage. Meer hulp kan je vinden in de ModernBB documentation.',
+'Bad referrer'						=>	'Bad HTTP_REFERRER. Je bent naar deze pagina gestuurd vanuit een onbekende bron. Als dit probleem zich blijft voordoen, kan je best controleren of \'Root URL\' correct staat geconfigureerd in de Backstage. Meer hulp kan je vinden in de ModernBB documentation.',
 'No permission'						=>	'Je hebt geen toestemming om deze pagina te bekijken.',
 'No cookie'							=>	'Je bent met succes ingelogd, maar ModernBB was niet in staat om een cookie in te stellen. Controleer je instellingen en sta toe dat deze websites cookies aanmaakt.',
 'Pun include extension'				=>  'Niet in staat om user include %s van template %s. "%s" bestanden zijn niet toegestaan.',  
@@ -111,87 +111,87 @@ $lang = array(
 // User menu
 //
 
-'Support'							=>	'Support',
+'Support'							=>	'Ondersteuning',
 'Help'								=>	'Help',
 'Index'								=>	'Index',
-'User list'							=>	'User list',
-'Rules'								=>	'Rules',
-'Register'							=>	'Register',
-'Registered'						=>	'Registered since',
-'Login'								=>	'Login',
-'Profile'							=>	'Profile',
-'Logout'							=>	'Logout',
+'User list'							=>	'Gebruikers',
+'Rules'								=>	'Voorwaarden',
+'Register'							=>	'Registreren',
+'Registered'						=>	'Geregistreerd sinds',
+'Login'								=>	'Inloggen',
+'Profile'							=>	'Profiel',
+'Logout'							=>	'Uitloggen',
 'Backstage'							=>	'Backstage',
-'New posts header'					=>	'New',
-'Active topics'						=>	'Active',
-'Unanswered topics'					=>	'Unanswered',
-'Posted topics'						=>	'Posted',
-'Show new posts'					=>	'Find topics with new posts since your last visit.',
-'Show active topics'				=>	'Find topics with recent posts.',
-'Show unanswered topics'			=>	'Find topics with no replies.',
-'Show posted topics'				=>	'Find topics you have posted to.',
-'Mark as read'						=>	'Mark as read',
+'New posts header'					=>	'Nieuw',
+'Active topics'						=>	'Actief',
+'Unanswered topics'					=>	'Onbeantwoord',
+'Posted topics'						=>	'Gemaakt door mij',
+'Show new posts'					=>	'Topics met nieuwe berichten.',
+'Show active topics'				=>	'Actieve topics.',
+'Show unanswered topics'			=>	'Onbeantwoorde topics.',
+'Show posted topics'				=>	'Onderwerpen waarin ik heb gereageerd.',
+'Mark as read'						=>	'Markeer als gelezen',
 'Title separator'					=>	' / ',
 
 //
 // Stuff for the page footer
 //
 
-'Moderate topic'					=>	'Moderate topic',
-'All'								=>	'Show all posts',
-'Move topic'						=>	'Move topic',
-'Open topic'						=>	'Open topic',
-'Close topic'						=>	'Close topic',
-'Unstick topic'						=>	'Unstick topic',
-'Stick topic'						=>	'Stick topic',
-'Moderate forum'					=>	'Moderate forum',
-'Powered by'						=>	'Powered by %s',
-'Thanks'							=>	'Thanks for using %s',
+'Moderate topic'					=>	'Dit topic beoordelen',
+'All'								=>	'Alles weergeven',
+'Move topic'						=>	'Topic verplaatsen',
+'Open topic'						=>	'Topic openen',
+'Close topic'						=>	'Topic sluiten',
+'Unstick topic'						=>	'Topic losmaken',
+'Stick topic'						=>	'Topic vastmaken',
+'Moderate forum'					=>	'Dit forum beoordelen',
+'Powered by'						=>	'Mogelijk gemaakt door %s',
+'Thanks'							=>	'Bedankt voor het gebruiken van %s',
 
 //
 // Debug information
 //
 
-'Debug table'						=>	'Debug information',
-'Querytime'							=>	'Generated in %1$s seconds, %2$s queries executed',
-'Memory usage'						=>	'Memory usage: %1$s',
-'Peak usage'						=>	'(Peak: %1$s)',
-'Query times'						=>	'Time (s)',
+'Debug table'						=>	'Debug informatie',
+'Querytime'							=>	'Gegenereerd in %1$s seconden, %2$s queries uitgevoerd',
+'Memory usage'						=>	'Geheugengebruik: %1$s',
+'Peak usage'						=>	'(Top: %1$s)',
+'Query times'						=>	'Tijd (s)',
 'Query'								=>	'Query',
-'Total query time'					=>	'Total query time: %s',
+'Total query time'					=>	'Duur: %s',
 
 //
 // First run
 //
 
-'First run message'					=>	'Wow, it\'s great to have you here, welcome and thanks for joining us. We\'ve set up your account and you\'re ready to go. Through we like to point out some actions you might want to do first.',
-'Hi there'							=>	'Hi there, %s',
-'Welcome to'						=>	'Welcome to %s',
-'Change your avatar'				=>	'Change your avatar',
-'Extend profile'					=>	'Extend your details',
-'Get help'							=>	'Get help',
-'Do not show again'					=>	'Don\'t show again',
+'First run message'					=>	'Hoi! Leuk dat je er bent! Welkom en bedankt dat je je hebt aangemeld. Je account is er klaar voor, jij ook? Dit is wat je eerst nog kunt doen.',
+'Hi there'							=>	'Hoi %s',
+'Welcome to'						=>	'Welkom bij %s',
+'Change your avatar'				=>	'Avatar aanpassen',
+'Extend profile'					=>	'Profiel aanvullen',
+'Get help'							=>	'Hulp aanroepen',
+'Do not show again'					=>	'Niet meer weergeven',
 
 //
 // For extern.php RSS feed
 //
 
-'RSS description'					=>	'The most recent topics at %s.',
-'RSS description topic'				=>	'The most recent posts in %s.',
+'RSS description'					=>	'Meest recente topics op %s.',
+'RSS description topic'				=>	'Meest recente berichten in %s.',
 'RSS reply'							=>	'Re: ', // The topic subject will be appended to this string (to signify a reply)
-'RSS active topics feed'			=>	'RSS active topics feed',
-'Atom active topics feed'			=>	'Atom active topics feed',
-'RSS forum feed'					=>	'RSS forum feed',
-'Atom forum feed'					=>	'Atom forum feed',
-'RSS topic feed'					=>	'RSS topic feed',
-'Atom topic feed'					=>	'Atom topic feed',
+'RSS active topics feed'			=>	'RSS feed van actieve topics',
+'Atom active topics feed'			=>	'Atom feed van actieve topics',
+'RSS forum feed'					=>	'RSS feed - forum',
+'Atom forum feed'					=>	'Atom feed - forum',
+'RSS topic feed'					=>	'RSS feed - topic',
+'Atom topic feed'					=>	'Atom feed - topic',
 
 //
 // Admin related stuff in the header
 //
 
-'New reports'						=>	'There are new reports',
-'Maintenance mode enabled'			=>	'Maintenance mode is enabled!',
+'New reports'						=>	'Er zijn nieuwe meldingen',
+'Maintenance mode enabled'			=>	'Onderhoudsmodus is ingeschakeld!',
 
 //
 // Units for file sizes
@@ -312,12 +312,12 @@ $lang = array(
 // Language for delete.php
 //
 
-'Delete post'			=>	'Delete post',
-'Topic warning'			=>	'Warning! This is the first post in the topic, the whole topic will be permanently deleted.',
-'Delete info'			=>	'The post you have chosen to delete is set out below for you to review before proceeding.',
-'Reply by'				=>	'Reply by %s - %s',
-'Topic by'				=>	'Topic started by %s - %s',
-'Delete'				=>	'Delete',
+'Delete post'			=>	'Bericht verwijderen',
+'Topic warning'			=>	'Waarschuwing! Dit is het eerste bericht in dit topic, het hele topic zal daarom voorgoed verwijderd worden.',
+'Delete info'			=>	'Het bericht wat je gemarkeerd hebt om te verwijderen staat klaar, controleer voordat je verder gaat.',
+'Reply by'				=>	'Antwoord door %s - %s',
+'Topic by'				=>	'Topic gestart door %s - %s',
+'Delete'				=>	'Verwijderen',
 
 //
 // Language for help.php
@@ -425,26 +425,26 @@ $lang = array(
 //
 
 'Topics'		=>	'Topics',
-'Link to'		=>	'Link to:', // As in "Link to: http://modernbb.be/"
-'Empty board'	=>	'Board is empty.',
-'Newest user'	=>	'Newest user: %s',
-'Users online'	=>	'Users online: %s',
-'Guests online'	=>	'Guests online: %s',
-'No of users'	=>	'Total users: %s',
-'No of topics'	=>	'Total topics: %s',
-'No of post'	=>	'Total posts: %s',
+'Link to'		=>	'Link naar:', // As in "Link to: http://modernbb.be/"
+'Empty board'	=>	'Forum is empty.',
+'Newest user'	=>	'Nieuwste gebruiker: %s',
+'Users online'	=>	'Gebruikers online: %s',
+'Guests online'	=>	'Gasten online: %s',
+'No of users'	=>	'Totaal aantal gebruikers: %s',
+'No of topics'	=>	'Totaal aantal topics: %s',
+'No of post'	=>	'Totaal aantal berichten: %s',
 'Online'		=>	'Online:', // As in "Online: User A, User B etc."
-'Board stats'	=>	'Board statistics',
+'Board stats'	=>	'Statistieken',
 
 //
 // Language for login.php
 //
 
-'Wrong user/pass'			=>	'Wrong username and/or password.',
-'Forgotten pass'			=>	'Forgotten password',
-'No email match'			=>	'There is no user registered with the email address',
-'Request pass'				=>	'Request password',
-'Remember me'				=>	'Remember me',
+'Wrong user/pass'			=>	'Gebruikersnaam of wachtwoord is onjuist',
+'Forgotten pass'			=>	'Wachtwoord vergeten',
+'No email match'			=>	'Onbekend e-mail adres',
+'Request pass'				=>	'Wachtwoord aanvragen',
+'Remember me'				=>	'Onthoud mijn gegevens',
 'New password errors'		=>	'Password request error',
 'New passworderrors info'	=>	'The following error needs to be corrected before a new password can be sent:',
 
