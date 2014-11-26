@@ -445,146 +445,146 @@ $lang = array(
 'No email match'			=>	'Onbekend e-mail adres',
 'Request pass'				=>	'Wachtwoord aanvragen',
 'Remember me'				=>	'Onthoud mijn gegevens',
-'New password errors'		=>	'Password request error',
-'New passworderrors info'	=>	'The following error needs to be corrected before a new password can be sent:',
+'New password errors'		=>	'Fout bij aanvragen wachtwoord',
+'New passworderrors info'	=>	'Het volgende moet worden opgelost voordat een nieuw wachtwoord verzonden kan worden:',
 
-'Forget mail'				=>	'An email has been sent to the specified address with instructions on how to change your password. If it does not arrive you can contact the forum administrator at',
-'Password request flood'	=>  'This account has already requested a password reset in the past hour. Please wait %s minutes before requesting a new password again.',
+'Forget mail'				=>	'Er is een e-mail verstuurd met instructies hoe je je wachtwoord kunt resetten, heb je geen e-mail ontvangen? Neem dan contact op met de forumbeheerder via:',
+'Password request flood'	=>  'Er is in dit uur al een wachtwoord reset aangevraagd, wacht %s minuten voordat je het opnieuw probeert.',
 
 //
 // Send email
 //
 
-'Form email disabled'			=>	'The user you are trying to send an email to has disabled form email.',
-'No email subject'				=>	'You must enter a subject.',
-'No email message'				=>	'You must enter a message.',
-'Too long email message'		=>	'Messages cannot be longer than 65535 characters (64 KB).',
-'Email flood'					=>  'At least %s seconds have to pass between sent emails. Please wait %s seconds and try sending again.',
-'Send email to'					=>	'Send email to',
+'Form email disabled'			=>	'Er kan geen e-mail worden verzonden, dit is door de gebruiker uitgeschakeld.',
+'No email subject'				=>	'Geef een onderwerp op.',
+'No email message'				=>	'Schrijf eerst een bericht.',
+'Too long email message'		=>	'Het bericht mag niet groter zijn dan 65535 bytes (~64kb).',
+'Email flood'					=>  'Er moeten minstens %s seconden verstreken zijn voordat er nog een e-mail kan worden verstuurd. Wacht %s seconden en probeer het dan opnieuw.',
+'Send email to'					=>	'E-mail versturen naar',
 
 //
 // Report
 //
 
-'No reason'						=>	'You must enter a reason.',
-'Reason too long'				=>	'Your message must be under 65535 bytes (~64kb).',
-'Report flood'					=>  'At least %s seconds have to pass between reports. Please wait %s seconds and try sending again.',
-'Report post'					=>	'Report post',
-'Reason'						=>	'Reason',
-'Reason desc'					=>	'Please enter a short reason why you are reporting this post',
+'No reason'						=>	'Geef een reden op.',
+'Reason too long'				=>	'Het bericht mag niet groter zijn dan 65535 bytes (~64kb).',
+'Report flood'					=>  'Er moeten minstens %s seconden verstreken zijn voordat er nog een melding kan worden verstuurd. Wacht %s seconden en probeer het dan opnieuw.',
+'Report post'					=>	'Dit bericht melden',
+'Reason'						=>	'Reden',
+'Reason desc'					=>	'Geef een omschrijving waarom je dit bericht wilt melden',
 
 //
 // Subscriptions
 //
 
-'Not subscribed topic'			=>	'You\re not subscribed to this topic.',
+'Not subscribed topic'			=>	'Je bent niet geabonneerd op dit topic',
 
 //
 // General forum and topic moderation
 //
 
-'Moderate'						=>	'Moderate',
-'Select'						=>	'Select', // the header of a column of checkboxes
-'Move'							=>	'Move',
-'Split'							=>	'Split',
-'Merge'							=>	'Merge',
+'Moderate'						=>	'Beoordelen',
+'Select'						=>	'Selecteren', // the header of a column of checkboxes
+'Move'							=>	'Verplaatsen',
+'Split'							=>	'Opsplitsen',
+'Merge'							=>	'Samenvoegen',
 
 //
 // Moderate forum
 //
 
-'Open'							=>	'Open',
-'Close'							=>	'Close',
-'Move topics'					=>	'Move topics',
-'Move to'						=>	'Move to',
-'Nowhere to move'				=>	'There are no forums into which you can move topics.',
-'Leave redirect'				=>	'Leave redirect topic(s)',
-'Delete topics'					=>	'Delete topics',
-'Delete topics comply'			=>	'Are you sure you want to delete the selected topics?',
-'No topics selected'			=>	'You must select at least one topic for move/delete/open/close.',
-'Not enough topics selected'	=>	'You must select at least two topics for merge.',
-'Merge topics'					=>	'Merge topics',
-'New subject'					=>	'New subject',
+'Open'							=>	'Openen',
+'Close'							=>	'Sluiten',
+'Move topics'					=>	'Topics verplaatsen',
+'Move to'						=>	'Verplaatsen naar',
+'Nowhere to move'				=>	'Er zijn geen forums waar je dit naar toe kunt verplaatsen.',
+'Leave redirect'				=>	'Doorgestuurde topic(s) laten staan',
+'Delete topics'					=>	'Topics verwijderen',
+'Delete topics comply'			=>	'Weet je zeker dat je de geselecteerde topics wilt verwijderen?',
+'No topics selected'			=>	'Je moet minstens één topic selecteren om te verplaatsen/verwijderen/openen/sluiten.',
+'Not enough topics selected'	=>	'Je moet minstens twéé topics selecteren om samen te voegen.',
+'Merge topics'					=>	'Topics samenvoegen',
+'New subject'					=>	'Nieuw onderwerp',
 
 //
 // Split multiple posts in topic
 //
 
-'Split posts'					=>	'Split posts',
+'Split posts'					=>	'Berichten opsplitsen',
 
 //
 // Delete multiple posts in topic
 //
 
-'Delete posts'					=>	'Delete posts',
-'Cannot select first'			=>	'First post cannot be selected for split/delete.',
-'Delete posts comply'			=>	'Are you sure you want to delete the selected posts?',
-'No posts selected'				=>	'You must select at least one post for split/delete.',
+'Delete posts'					=>	'Berichten verwijderen',
+'Cannot select first'			=>	'Het eerste bericht kan niet worden opgesplitst of verwijderd.',
+'Delete posts comply'			=>	'Weet je zeker dat je de geselecteerde berichten wilt verwijderen?',
+'No posts selected'				=>	'Je moet minstens één bericht selecteren om op te splitsen/te verwijderen.',
 
 //
 // Get host
 //
 
-'Host info 1'					=>	'The IP address is: %s',
-'Host info 2'					=>	'The host name is: %s',
-'Show more users'				=>	'Show more users for this IP',
+'Host info 1'					=>	'Het IP adres is: %s',
+'Host info 2'					=>	'De DNS naam is: %s',
+'Show more users'				=>	'Toon meer gebruikers voor dit IP adres',
 
 //
 // Language for post.php and edit.php
 // Post validation stuff (many are similiar to those in edit.php)
 //
 
-'No subject'		=>	'Topics must contain a subject.',
-'No subject after censoring'	=>	'Topics must contain a subject. After applying censoring filters, your subject was empty.',
-'Too long subject'	=>	'Subjects cannot be longer than 70 characters.',
-'No message'		=>	'You must enter a message.',
-'No message after censoring'	=>	'You must enter a message. After applying censoring filters, your message was empty.',
-'Too long message'	=>	'Posts cannot be longer than %s bytes.',
-'All caps subject'	=>	'Subjects cannot contain only capital letters.',
-'All caps message'	=>	'Posts cannot contain only capital letters.',
-'Empty after strip'	=>	'It seems your post consisted of empty BBCodes only. It is possible that this happened because e.g. the innermost quote was discarded because of the maximum quote depth level.',
+'No subject'		=>	'Topics moeten een onderwerp bevatten.',
+'No subject after censoring'	=>	'Topics moeten een onderwerp bevatten. Er zijn woorden uit jouw onderwerp weggefilterd.',
+'Too long subject'	=>	'Een onderwerp mag niet langer zijn dan 70 tekens',
+'No message'		=>	'Je moet een bericht opgeven.',
+'No message after censoring'	=>	'Je moet een bericht opgeven. Er zijn woorden uit je bericht weggefilterd.',
+'Too long message'	=>	'Een bericht mag niet langer zijn dan %s bytes.',
+'All caps subject'	=>	'Een onderwerp mag niet bestaan uit alleen hoofdletters.',
+'All caps message'	=>	'Een bericht mag niet bestaan uit alleen hoofdletters.',
+'Empty after strip'	=>	'Je bericht bestaat uit enkel lege BBCodes. Het zou kunnen dat een quote is verwijderd vanwege het maximaal aantal keren dat je mag quoten.',
 
 //
 // Posting
 //
 
-'Post errors'		=>	'Post errors',
-'Post preview'		=>	'Post preview',
-'Guest name'		=>	'Name', // For guests (instead of Username)
-'Post a reply'		=>	'Post a reply',
-'Post new topic'	=>	'Post topic',
-'Hide smilies'		=>	'Never show smilies as icons for this post',
-'Subscribe topic'	=>	'Subscribe to this topic',
-'Stay subscribed'	=>	'Stay subscribed to this topic',
-'Topic review'		=>	'Topic review (newest first)',
-'Flood start'		=>  'At least %s seconds have to pass between posts. Please wait %s seconds and try posting again.',
-'Preview'			=>	'Preview',
+'Post errors'		=>	'Fouten bij plaatsen',
+'Post preview'		=>	'Voorbeeld van bericht',
+'Guest name'		=>	'Naam', // For guests (instead of Username)
+'Post a reply'		=>	'Reageren',
+'Post new topic'	=>	'Nieuw topic aanmaken',
+'Hide smilies'		=>	'Smileys in deze post als tekst weergeven',
+'Subscribe topic'	=>	'Abboneren op dit topic',
+'Stay subscribed'	=>	'Blijf geabboneerd op dit topicc',
+'Topic review'		=>	'Nieuwste berichten bovenaan weergeven',
+'Flood start'		=>  'Er moeten minstens %s seconden verstreken zijn tussen het plaatsen van berichten. Wacht %s seconden en probeer het opnieuw.',
+'Preview'			=>	'Voorbeeld',
 
 //
 // Edit post
 //
 
-'Silent edit'		=>	'Silent edit (don\'t display "Edited by ..." in topic view)',
-'Edit post'			=>	'Edit post',
+'Silent edit'		=>	'Wijzigingen verbergen',
+'Edit post'			=>	'Bericht aanpassen',
 
 //
 // Language for both profile.php and register.php
 //
 
-'Email legend'				=>	'Enter a valid email address',
-'Time zone'					=>	'Time zone',
-'DST'						=>	'Advance time by 1 hour for daylight saving.',
-'Time format'				=>	'Time format',
-'Date format'				=>	'Date format',
-'Default'					=>	'Default',
-'Language'					=>	'Language',
-'Email setting info'		=>	'Email settings',
-'Email setting 1'			=>	'Display your email address.',
-'Email setting 2'			=>	'Hide your email address but allow form email.',
-'Email setting 3'			=>	'Hide your email address and disallow form email.',
+'Email legend'				=>	'Geef een geldig e-mail adres op',
+'Time zone'					=>	'Tijdzone',
+'DST'						=>	'Zomertijd inschakelen',
+'Time format'				=>	'Tijdsformaat',
+'Date format'				=>	'Datumformaat',
+'Default'					=>	'Standaard',
+'Language'					=>	'Taal',
+'Email setting info'		=>	'E-mail instellingen',
+'Email setting 1'			=>	'E-mail adres weergeven in profiel.',
+'Email setting 2'			=>	'E-mail adres verbergen maar berichten toestaan.',
+'Email setting 3'			=>	'E-mail adres verbergen en berichten niet toestaan.',
 
-'Username too short'		=>	'Usernames must be at least 2 characters long. Please choose another (longer) username.',
-'Username too long'			=>	'Usernames must not be more than 25 characters long. Please choose another (shorter) username.',
+'Username too short'		=>	'Een gebruikersnaam moet minstens 2 tekens lang zijn, kies een andere (langere) gebruikersnaam.',
+'Username too long'			=>	'Een gebruikersnaam mag niet langer zijn dan 25 tekens, kies een andere (kortere) gebruikersnaam.',
 'Username guest'			=>	'The username guest is reserved. Please choose another username.',
 'Username IP'				=>	'Usernames may not be in the form of an IP address. Please choose another username.',
 'Username reserved chars'	=>	'Usernames may not contain all the characters \', " and [ or ] at once. Please choose another username.',
