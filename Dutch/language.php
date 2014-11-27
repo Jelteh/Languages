@@ -43,7 +43,7 @@ $lang = array(
 'Announcement'						=>	'Aankondigingen',
 'Options'							=>	'Algemene instellingen',
 'Features'							=>	'Functies',
-'Submit'							=>	'Opslaan', // "Name" of submit buttons
+'Submit'							=>	'Plaatsen', // "Name" of submit buttons
 'Search'							=>	'Zoeken',
 'Ban message'						=>	'Je bent verbannen van dit forum.',
 'Ban message 2'						=>	'Je ban eindigt op',
@@ -63,7 +63,7 @@ $lang = array(
 'New posts info'					=>	'Ga naar de eerste nieuwe reactie.', // The popup text for new posts links
 'Username'							=>	'Gebruikersnaam',
 'Password'							=>	'Wachtwoord',
-'Send email'						=>	'Verzend email',
+'Send email'						=>	'Stuur een e-mail',
 'Moderated by'						=>	'Gemodereerd door',
 'Registered table'					=>	'Geregistreerd',
 'Subject'							=>	'Onderwerp',
@@ -585,133 +585,133 @@ $lang = array(
 
 'Username too short'		=>	'Een gebruikersnaam moet minstens 2 tekens lang zijn, kies een andere (langere) gebruikersnaam.',
 'Username too long'			=>	'Een gebruikersnaam mag niet langer zijn dan 25 tekens, kies een andere (kortere) gebruikersnaam.',
-'Username guest'			=>	'The username guest is reserved. Please choose another username.',
-'Username IP'				=>	'Usernames may not be in the form of an IP address. Please choose another username.',
-'Username reserved chars'	=>	'Usernames may not contain all the characters \', " and [ or ] at once. Please choose another username.',
-'Username BBCode'			=>	'Usernames may not contain any of the text formatting tags (BBCode) that the forum uses. Please choose another username.',
-'Banned username'			=>	'The username you entered is banned in this forum. Please choose another username.',
-'Pass too short'			=>	'Passwords must be at least 6 characters long. Please choose another (longer) password.',
-'Pass not match'			=>	'Passwords do not match.',
-'Banned email'				=>	'The email address you entered is banned in this forum. Please choose another email address.',
-'Dupe email'				=>	'Someone else is already registered with that email address. Please choose another email address.',
-'Sig too long'				=>	'Signatures cannot be longer than %1$s characters. Please reduce your signature by %2$s characters.',
-'Sig too many lines'		=>	'Signatures cannot have more than %s lines.',
+'Username guest'			=>	'De gebruikersnaam gast is gereserveerd, kies een andere gebruikersnaam.',
+'Username IP'				=>	'Een gebruikersnaam mag geen IP adres zijn, kies een andere gebruikersnaam.',
+'Username reserved chars'	=>	'In een gebruikersnaam mogen de volgende tekens \', " en [ of ] tegelijk voorkomen, kies een andere gebruikersnaam.',
+'Username BBCode'			=>	'In een gebruikersnaam mag geen BBcode voorkomen, kies een andere gebruikersnaam.',
+'Banned username'			=>	'Deze gebruikersnaam is verbannen van het forum, kies een andere gebruikersnaam.',
+'Pass too short'			=>	'Een wachtwoord moet minstens 6 tekens lang zijn, neem een langer wachtwoord.',
+'Pass not match'			=>	'De wachtwoorden komen niet overeen.',
+'Banned email'				=>	'Dit e-mail adres is verbannen van het forum, kies een ander e-mailadres.',
+'Dupe email'				=>	'Dit e-mail adres is al gebruikt voor het maken van een account, kies een ander e-mailadres of log in.',
+'Sig too long'				=>	'Een handtekening mag niet langer zijn dan %1$s tekens. Je hebt er nu %2$s te veel.',
+'Sig too many lines'		=>	'Een handtekening mag niet langer zijn dan %s regels',
 'Bad ICQ'					=>	'You entered an invalid ICQ UIN. Please go back and correct.',
 
 //
 // Language for profile.php
 //
 
-'Section personality'			=>	'Personality',
-'Section admin'					=>	'Administration',
+'Section personality'			=>	'Over mij',
+'Section admin'					=>	'Admin',
 
 //
 // Miscellaneous
 //
 
-'Personal details legend'		=>	'Contact details',
-'User tools'					=>	'User tools',
-'Unknown'          				=>  'Unknown',
+'Personal details legend'		=>	'Contact gegevens',
+'User tools'					=>	'Gebruikersopties',
+'Unknown'          				=>  'Onbekend',
 
 //
 // Password stuff
 //
 
-'Pass key bad'					=>	'The specified password activation key was incorrect or has expired. Please re-request a new password. If that fails, contact the forum administrator at',
-'Pass updated'					=>	'Your password has been updated. You can now login with your new password.',
-'Wrong pass'					=>	'Wrong old password.',
-'Change pass'					=>	'Change password',
-'Old pass'						=>	'Old password',
-'New pass'						=>	'New password',
-'Confirm new pass'				=>	'Confirm new password',
-'Pass info'						=>	'Passwords must be at least 6 characters long and are case sensitive',
+'Pass key bad'					=>	'De opgegeven code is onjuist of is verlopen, vraag een nieuwe code aan om je wachtwoord te herstellen. Lukt dit niet? Neem dan contact op met de forumbeheerder via:',
+'Pass updated'					=>	'Je wachtwoord is aangepast. Je kunt nu inloggen met je nieuwe wachtwoord.',
+'Wrong pass'					=>	'Het oude wachtwoord is onjuist.',
+'Change pass'					=>	'Wachtwoord veranderen',
+'Old pass'						=>	'Oud wachtwoord',
+'New pass'						=>	'Nieuw wachtwoord',
+'Confirm new pass'				=>	'Nieuw wachtwoord bevestigen',
+'Pass info'						=>	'Een wachtwoord moet minstens 6 tekens lang zijn en is hoofdlettergevoelig',
 
 //
 // Email stuff
 //
 
-'Email key bad'					=>	'The specified email activation key was incorrect or has expired. Please re-request change of email address. If that fails, contact the forum administrator at',
-'Email updated'					=>	'Your email address has been updated.',
-'Activate email sent'			=>	'An email has been sent to the specified address with instructions on how to activate the new email address. If it doesn\'t arrive you can contact the forum administrator at',
-'Email instructions'			=>	'An email will be sent to your new address with an activation link. You must click the link in the email you receive to activate the new address.',
-'Change email'					=>	'Change email address',
-'New email'						=>	'New email',
+'Email key bad'					=>	'De opgegeven code is onjuist of is verlopen, vraag een nieuwe code aan om je e-mail adres te veranderen. Lukt dit niet? Neem dan contact op met de forumbeheerder via:',
+'Email updated'					=>	'Je e-mailadres is aangepast.',
+'Activate email sent'			=>	'Er is een e-mail verstuurd met instructies hoe je je nieuwe e-mail adres kunt activeren, heb je geen e-mail ontvangen? Neem dan contact op met de forumbeheerder via:',
+'Email instructions'			=>	'Er is een e-mail verstuurd naar je nieuwe adres met daarin een activatie-link. Klik op de link in het e-mailbericht om je nieuwe e-mailadres te activeren.',
+'Change email'					=>	'E-mailadres aanpassen',
+'New email'						=>	'Nieuw e-mailadres',
 
 //
 // Avatar upload stuff
 //
 
-'Avatars disabled'				=>	'The administrator has disabled avatar support.',
-'Too large ini'					=>	'The selected file was too large to upload. The server didn\'t allow the upload.',
-'Partial upload'				=>	'The selected file was only partially uploaded. Please try again.',
+'Avatars disabled'				=>	'De forumbeheerder heeft de avatar functie uitgeschakeld.',
+'Too large ini'					=>	'Het opgegeven bestand was te groot, de server heeft het uploaden ervan niet toegestaan.',
+'Partial upload'				=>	'Het opgegeven bestand is maar gedeeltelijk geupload, probeer het opnieuw.',
 'No tmp directory'				=>	'PHP was unable to save the uploaded file to a temporary location.',
-'No file'						=>	'You did not select a file for upload.',
-'Bad type'						=>	'The file you tried to upload is not of an allowed type. Allowed types are gif, jpeg and png.',
-'Too wide or high'				=>	'The file you tried to upload is wider and/or higher than the maximum allowed',
-'Too large'						=>	'The file you tried to upload is larger than the maximum allowed',
+'No file'						=>	'Je hebt geen bestand opgegeven.',
+'Bad type'						=>	'Dit bestandstype is niet toegestaan, enkel gif, jpeg en png mogen worden geupload.',
+'Too wide or high'				=>	'Het bestand is groter dan de maximale afmetingen.',
+'Too large'						=>	'Het bestand is groter dan de maximale bestandsgrootte.',
 'pixels'						=>	'pixels',
 'bytes'							=>	'bytes',
-'Move failed'					=>	'The server was unable to save the uploaded file. Please contact the forum administrator at',
-'Unknown failure'				=>	'An unknown error occurred. Please try again.',
-'Avatar desc'					=>	'An avatar is a small image that will be displayed under your username in your posts. It must not be any bigger than',
-'Upload avatar'					=>	'Upload avatar',
-'Delete avatar'					=>	'Delete avatar', // only for admins
-'File'							=>	'File',
-'Upload'						=>	'Upload', // submit button
+'Move failed'					=>	'De server kon het bestand niet opslaan. Neem contact op met de forumbeheerder op:',
+'Unknown failure'				=>	'Er is een onbekende fout opgetreden, probeer het opnieuw.',
+'Avatar desc'					=>	'Een avatar is een kleine afbeelding die onder je gebruikersnaam naast je geplaatste berichten zal worden geplaatst. De afmetingen mogen niet groter zijn dan',
+'Upload avatar'					=>	'Avatar uploaden',
+'Delete avatar'					=>	'Avatar verwijderen', // only for admins
+'File'							=>	'Bestand',
+'Upload'						=>	'Uploaden', // submit button
 
 //
 // Form validation stuff
 //
 
-'Forbidden title'				=>	'The title you entered contains a forbidden word. You must choose a different title.',
+'Forbidden title'				=>	'De titel bevat een woord dat niet is toegestaan. Kies een andere titel.',
 
 //
 // Profile display stuff
 //
 
-'Email info'					=>	'Email: %s',
-'Last visit info'				=>	'Last visit',
-'Show posts'					=>	'Show posts',
-'Show topics'					=>	'Show topics',
-'Show subscriptions'			=>	'Show subscriptions',
+'Email info'					=>	'E-mail: %s',
+'Last visit info'				=>	'Laatste bezoek',
+'Show posts'					=>	'Berichten weergeven',
+'Show topics'					=>	'Topics weergeven',
+'Show subscriptions'			=>	'Abbonementen weergeven',
 'Contact'						=>	'Contact',
-'Realname'						=>	'Real name',
-'Location'						=>	'Location',
+'Realname'						=>	'Naam',
+'Location'						=>	'Locatie',
 'Website'						=>	'Website',
-'Invalid website URL'			=>	'The website URL you entered is invalid.',
+'Invalid website URL'			=>	'Het ingevulde adres is ongeldig.',
 'Microsoft'						=>	'Microsoft Account',
 'Facebook'						=>	'Facebook',
 'Twitter'						=>	'Twitter',
 'Google+'						=>	'Google+',
 'Avatar'						=>	'Avatar',
-'Sig max size'					=>	'Max length: %s characters / Max lines: %s',
-'Avatar info'					=>	'An avatar is a small image that will be displayed with all your posts. You can upload an avatar by clicking the link below.',
-'Change avatar'					=>	'Change avatar',
-'Signature info'				=>	'A signature is a small piece of text that is attached to your posts. In it, you can enter just about anything you like.',
-'Sig preview'					=>	'Current signature preview:',
-'No sig'						=>	'No signature currently stored in profile.',
-'Signature quote/code/list/h'	=>	'The quote, code, list, and heading BBCodes are not allowed in signatures.',
-'Posts per page'				=>	'Posts',
-'Leave blank'					=>	'Leave blank to use default',
-'Notify full'					=>	'Include a plain text version of new posts in subscription notification emails.',
-'Auto notify full'				=>	'Automatically subscribe to every topic you post in.',
-'Show smilies'					=>	'Show smilies as graphic icons.',
-'Show images'					=>	'Show images in posts.',
-'Show images sigs'				=>	'Show images in user signatures.',
-'Show avatars'					=>	'Show user avatars in posts.',
-'Show sigs'						=>	'Show user signatures.',
-'Style'							=>	'Style',
-'Backstage Accent'				=>	'Backstage Accent',
-'Admin note'					=>	'Admin note',
-'Post display'					=>	'Post display',
+'Sig max size'					=>	'Maximaal: %s tekens / Maximaal: %s regels',
+'Avatar info'					=>	'Een avatar is een kleine afbeelding die naast je geplaatste berichten zal worden geplaatst.',
+'Change avatar'					=>	'Avatar veranderen',
+'Signature info'				=>	'Een handtekening is een klein onderschrift dat onder je geplaatste bericht verschijnt.',
+'Sig preview'					=>	'Voorbeeld van je huidige handtekening:',
+'No sig'						=>	'Er is op dit moment geen handtekening actief',
+'Signature quote/code/list/h'	=>	'Quoten, code, lijst en header BBCodes zijn niet toegestaan in een handtekening.',
+'Posts per page'				=>	'Aantal berichten per pagina',
+'Leave blank'					=>	'Standaard? Niets invullen',
+'Notify full'					=>	'Tekstuele inhoud van berichten toevoegen aan notificatie e-mail.',
+'Auto notify full'				=>	'Automatisch abboneren op topics waarin ik heb gereageerd.',
+'Show smilies'					=>	'Smileys grafisch weergeven.',
+'Show images'					=>	'Plaatjes weergeven in berichten.',
+'Show images sigs'				=>	'Plaatjes weergeven in handtekeningen van gebruikers.',
+'Show avatars'					=>	'Avatars weergeven.',
+'Show sigs'						=>	'Handtekeningen weergeven.',
+'Style'							=>	'Thema',
+'Backstage Accent'				=>	'Backstage Accentkleur',
+'Admin note'					=>	'Notitie voor beheerder',
+'Post display'					=>	'Weergave',
 
 //
 // Administration stuff
 //
 
-'Group membership legend'		=>	'Choose user group',
-'Save'							=>	'Save',
-'Set mods legend'				=>	'Set moderator access',
+'Group membership legend'		=>	'Kies gebruikersgroep',
+'Save'							=>	'Opslaan',
+'Set mods legend'				=>	'Als beheerder instellen',
 'Moderator in info'				=>	'Choose which forums this user should be allowed to moderate. Note: This only applies to moderators. Administrators always have full permissions in all forums.',
 'Update forums'					=>	'Update forums',
 'Delete ban legend'				=>	'Delete or ban user',
@@ -727,136 +727,136 @@ $lang = array(
 // Language for register.php
 //
 
-'No new regs'				=>	'This forum is not accepting new registrations.',
-'Forum rules'				=>	'Forum rules',
-'Rules legend'				=>	'You must agree to the following in order to register',
-'Registration flood'		=>	'A new user was registered with the same IP address as you within the last hour. To prevent registration flooding, at least an hour has to pass between registrations from the same IP. Sorry for the inconvenience.',
-'Agree'						=>	'Agree',
-'Cancel'					=>	'Cancel',
-'Register legend'			=>	'Enter the requested data',
+'No new regs'				=>	'Je kunt je niet zelf registreren voor dit forum.',
+'Forum rules'				=>	'Voorwaarden',
+'Rules legend'				=>	'Accepteer de voorwaarden om je te kunnen registreren',
+'Registration flood'		=>	'Een nieuwe gebruiker heeft zich in het afgelopen uur met hetzelfde IP adres als jou geregistreerd. Om spam te voorkomen moet je minstens één uur wachten voordat je je met hetzelfde IP adres kunt registeren. Excuses voor het ongemak.',
+'Agree'						=>	'Akkoord',
+'Cancel'					=>	'Annuleren',
+'Register legend'			=>	'Vul de ontbrekende gegevens in',
 
 //
 // Form validation stuff (some of these are also used in post.php)
 //
 
-'Registration errors'		=>	'Registration errors',
-'Username censor'			=>	'The username you entered contains one or more censored words. Please choose a different username.',
-'Username dupe 1'			=>	'Someone is already registered with the username',
-'Username dupe 2'			=>	'The username you entered is too similar. The username must differ from that by at least one alphanumerical character (a-z or 0-9). Please choose a different username.',
-'Email not match'			=>	'Email addresses do not match.',
+'Registration errors'		=>	'Fout bij het registeren',
+'Username censor'			=>	'De ingevulde gebruikersnaam bevat enkele woorden die niet zijn toegestaan, kies een andere gebruikersnaam.',
+'Username dupe 1'			=>	'Deze gebruikersnaam is al in gebruik',
+'Username dupe 2'			=>	'Deze gebruikersnaam lijkt te veel op een bestaande gebruikersnaam, er moet minstens één teken (a-z of 0-9) afwijken, kies een andere gebruikersnaam.',
+'Email not match'			=>	'De e-mailadressen zijn niet gelijk',
 
 //
 // Registration email stuff
 //
 
-'Reg email'					=>	'Thank you for registering. Your password has been sent to the specified address. If it doesn\'t arrive you can contact the forum administrator at',
+'Reg email'					=>	'Bedankt voor je registratie. Je wachtwoord is verstuurd naar het opgegeven e-mailadres. Heb je geen e-mail ontvangen? Neem dan contact op met de forumbeheerder op:',
 
 //
 // Register info
 //
 
-'Username legend'			=>	'Enter a username between 2 and 25 characters long',
-'Email help info'			=>	'Your password will be sent to this address, make sure it\'s valid',
-'If human'					=>	'If you are human please leave this field blank!',
-'Spam catch'				=>	'Unfortunately it looks like your request is spam. If you feel this is a mistake, please direct any inquiries to the forum administrator at',
+'Username legend'			=>	'Kies een gebruikersnaam tussen de 2 en 25 tekens',
+'Email help info'			=>	'Het wachtwoord zal naar dit adres worden gestuurd.',
+'If human'					=>	'Ben je een mens? Laat het onderstaande veld dan leeg!',
+'Spam catch'				=>	'Je aanvraag lijkt op spam, neem contact op met de forumbeheerder als dit niet zo is',
 
 //
 // Language for search.php
 //
 
-'User search'						=>	'User search',
-'No search permission'				=>	'You do not have permission to use the search feature.',
-'Search flood'						=>  'At least %s seconds have to pass between searches. Please wait %s seconds and try searching again.',
-'Search criteria legend'			=>	'Enter your search criteria',
-'Search info'						=>	'To search by keyword, enter a term or terms to search for. Separate terms with spaces. Use AND, OR and NOT to refine your search. To search by author enter the username of the author whose posts you wish to search for. Use wildcard character * for partial matches.',
-'Keyword search'					=>	'Keyword search',
-'Author search'						=>	'Author search',
-'All forums'						=>	'All forums',
-'Search in'							=>	'Search in',
-'Message and subject'				=>	'Message text and topic subject',
-'Message only'						=>	'Message text only',
-'Topic only'						=>	'Topic subject only',
-'Sort by'							=>	'Sort by',
-'Sort order'						=>	'Sort order',
-'Search results info'				=>	'You can choose how you wish to sort and show your results.',
-'Sort by post time'					=>	'Post time',
-'Sort by author'					=>	'Author',
-'Ascending'							=>	'Ascending',
-'Descending'						=>	'Descending',
-'Show as'							=>	'Show as',
-'Show as posts'						=>	'Posts',
-'Advanced search'					=>	'Advanced search',
+'User search'						=>	'Zoeken in gebruikers',
+'No search permission'				=>	'Je bent niet bevoegd om gebruik te maken van de zoekfunctie.',
+'Search flood'						=>  'Er moeten minstens %s seconden verstreken zijn tussen zoekopdrachten. Wacht %s seconden en probeer het dan opnieuw.',
+'Search criteria legend'			=>	'Zoek in het forum',
+'Search info'						=>	'Om te zoeken op trefwoorden, geef één of meerdere woorden (gescheiden door spaties) op. Gebruik AND, OR en NOT om specifiek te zoeken. Geef een gebruikersnaam op om te filteren op berichten van die gebruiker. Gebruik * om te zoeken op gedeelten van woorden.',
+'Keyword search'					=>	'Zoeken op trefwoorden',
+'Author search'						=>	'Zoeken op gebruiker',
+'All forums'						=>	'Alle forums',
+'Search in'							=>	'Zoeken in',
+'Message and subject'				=>	'Tekst en titel van een bericht',
+'Message only'						=>	'Enkel tekst van een bericht',
+'Topic only'						=>	'Enkel titel van een bericht',
+'Sort by'							=>	'Sorteren op',
+'Sort order'						=>	'Sorteervolgorde',
+'Search results info'				=>	'Je kunt kiezen hoe je je zoekresultaten wilt sorteren en weergeven',
+'Sort by post time'					=>	'Tijd plaatsing',
+'Sort by author'					=>	'Gebruiker',
+'Ascending'							=>	'Oplopend',
+'Descending'						=>	'Aflopend',
+'Show as'							=>	'Weergeven als',
+'Show as posts'						=>	'Berichten',
+'Advanced search'					=>	'Geavanceerd zoeken',
 
 //
 // Results
 //
 
-'Search results'					=>	'Search results',
-'Quick search show_new'				=>	'New',
-'Quick search show_recent'			=>	'Active',
-'Quick search show_unanswered'		=>	'Unanswered',
-'Quick search show_replies'			=>	'Posted',
-'Quick search show_user_topics'		=>	'Topics by %s',
-'Quick search show_user_posts'		=>	'Posts by %s',
-'Quick search show_subscriptions'	=>	'Subscribed by %s',
-'By keywords show as topics'		=>	'Topics with posts containing \'%s\'',
-'By keywords show as posts'			=>	'Posts containing \'%s\'',
-'By user show as topics'			=>	'Topics with posts by %s',
-'By user show as posts'				=>	'Posts by %s',
-'By both show as topics'			=>	'Topics with posts containing \'%s\', by %s',
-'By both show as posts'				=>	'Posts containing \'%s\', by %s',
-'No terms'							=>	'You have to enter at least one keyword and/or an author to search for.',
-'No hits'							=>	'Your search returned no hits.',
-'No user posts'						=>	'There are no posts by this user in this forum.',
-'No user topics'					=>	'There are no topics by this user in this forum.',
-'No subscriptions'					=>	'This user is currently not subscribed to any topics.',
-'No new posts'						=>	'There are no topics with new posts since your last visit.',
-'No recent posts'					=>	'No new posts have been made within the last 24 hours.',
-'No unanswered'						=>	'There are no unanswered posts in this forum.',
-'Go to post'						=>	'Go to post',
-'Go to topic'						=>	'Go to topic',
+'Search results'					=>	'Zoek resultaten',
+'Quick search show_new'				=>	'Nieuw',
+'Quick search show_recent'			=>	'Actief',
+'Quick search show_unanswered'		=>	'Onbeantwoord',
+'Quick search show_replies'			=>	'Geplaatst',
+'Quick search show_user_topics'		=>	'Topics door %s',
+'Quick search show_user_posts'		=>	'Berichten door %s',
+'Quick search show_subscriptions'	=>	'Geabboneerd door %s',
+'By keywords show as topics'		=>	'Topics met berichten waarin \'%s\' voorkomt',
+'By keywords show as posts'			=>	'Berichten waarin \'%s\' voorkomt',
+'By user show as topics'			=>	'Topics met berichten geschreven door %s',
+'By user show as posts'				=>	'Berichten geschreven door %s',
+'By both show as topics'			=>	'Topics met berichten waarin \'%s\' voorkomt en die geschreven zijn door %s',
+'By both show as posts'				=>	'Berichten waarin \'%s\' voorkomt en die geschreven zijn door %s',
+'No terms'							=>	'Je moet minstens één trefwoord of gebruiker als zoekterm opgeven.',
+'No hits'							=>	'Er zijn geen resultaten gevonden.',
+'No user posts'						=>	'Er zijn geen berichten door deze gebruiker geplaatst.',
+'No user topics'					=>	'Er zijn geen topics door deze gebruiker gestart.',
+'No subscriptions'					=>	'Deze gebruiker heeft zich nog niet geabboneerd op een topic.',
+'No new posts'						=>	'Er zijn geen topics met nieuwe berichten sinds je laatste bezoek.',
+'No recent posts'					=>	'Er zijn geen nieuwe berichten in de afgelopen 24 uur.',
+'No unanswered'						=>	'Er zijn geen onbeantwoorde berichten in dit forum.',
+'Go to post'						=>	'Ga naar bericht',
+'Go to topic'						=>	'Ga naar topic',
 
 //
 // Language for viewtopic.php
 //
 
-'Post reply'		=>	'Post reply',
-'Topic closed'		=>	'Topic closed',
-'From'				=>	'From:', // User location
+'Post reply'		=>	'Reageren',
+'Topic closed'		=>	'Dit topic is gesloten',
+'From'				=>	'Uit:', // User location
 'IP address logged'	=>	'IP log',
-'Note'				=>	'Note:', // Admin note
-'Posts'				=>	'Posts:',
-'Replies'			=>	'Replies:',
-'Last edit'			=>	'Last edited by',
-'Report'			=>	'Report',
-'Edit'				=>	'Edit',
-'Quote'				=>	'Quote',
-'Is subscribed'		=>	'You are subscribed',
-'Unsubscribe'		=>	'Unsubscribe',
-'Subscribe'			=>	'Subscribe',
-'Quick post'		=>	'Quick post',
-'New icon'			=>	'New post',
+'Note'				=>	'Notitie:', // Admin note
+'Posts'				=>	'Berichten:',
+'Replies'			=>	'Antwoorden:',
+'Last edit'			=>	'Laatst bewerkt door',
+'Report'			=>	'Melden',
+'Edit'				=>	'Bewerken',
+'Quote'				=>	'Quoten',
+'Is subscribed'		=>	'Je bent geabboneerd',
+'Unsubscribe'		=>	'Uitschrijven',
+'Subscribe'			=>	'Abboneren',
+'Quick post'		=>	'Snel reageren',
+'New icon'			=>	'Reageren',
 'Re'				=>	'Re:',
 
 //
 // Language for userlist.php
 //
 
-'User search info'	=>	'Enter a username to search for and/or a user group to filter by. Use the wildcard character * for partial matches.',
-'User group'		=>	'User group',
-'No of posts'		=>	'Number of posts',
-'All users'			=>	'All users',
+'User search info'	=>	'Geef een gebruikersnaam op om te zoeken of een gebruikersgroep om te filteren. Gebruik * om te zoeken of te filteren op een gedeelte van een gebruikersnaam of groep.',
+'User group'		=>	'Gebruikersgroep',
+'No of posts'		=>	'Aantal berichten',
+'All users'			=>	'Alle gebruikers',
 
 //
 // Language for viewforum.php
 //
 
-'Views'			=>	'Views',
-'Moved'			=>	'Moved',
-'Star'			=>	'Star',
+'Views'			=>	'keer bekeken',
+'Moved'			=>	'Verplaatst',
+'Star'			=>	'Markeren',
 'Sticky'		=>	'Sticky',
-'Closed'		=>	'Closed',
-'Empty forum'	=>	'Forum is empty.',
+'Closed'		=>	'Gesloten',
+'Empty forum'	=>	'Dit forum is leeg',
 
 //
 // Language for Backstage
@@ -1043,7 +1043,7 @@ $lang = array(
 'Admin e-mail help'					=>	'The admins email',
 'Webmaster e-mail label'			=>	'Webmaster email',
 'Webmaster e-mail help'				=>	'The email where the boards mails will be addressed from',
-'Subscriptions head'				=>	'Subscriptions',
+'Subscriptions head'				=>	'Abbonementen',
 'Forum subscriptions help'			=>	'Enable users to subscribe to forums.',
 'Topic subscriptions help'			=>	'Enable users to subscribe to topics.',
 'SMTP head'							=>	'SMTP settings',
@@ -1064,7 +1064,7 @@ $lang = array(
 'General'							=>	'General',
 'Topics and posts'					=>	'Topics and posts',
 'User features'						=>	'User features',
-'Search'							=>	'Search',
+'Search'							=>	'Zoeken',
 'Advanced'							=>	'Advanced',
 'Quick post help'					=>	'Show a quick post form so users can post a reaction from the topic view.',
 'Responsive post help'              =>  'Show "Post" and "Preview" button in topic view on small screens, leave quick post enabled when this is disabled to allow small devices to post comments.',
@@ -1545,7 +1545,7 @@ $lang = array(
 
 'E-mail address label'		=>	'Email address',
 'Real name label'			=>	'Real name',
-'Signature'					=>	'Signature',
+'Signature'					=>	'Handtekening',
 'Posts more than label'		=>	'Number of posts greater than',
 'Posts less than label'		=>	'Number of posts less than',
 'Last post after label'		=>	'Last post is after',
@@ -1588,10 +1588,10 @@ $lang = array(
 // Main menu
 //
 
-'Content'				=>	'Content',
+'Content'				=>	'Inhoud',
 'Forums'				=>	'Forums',
-'Forum settings'		=>	'Forum settings',
-'Categories'			=>	'Categories',
+'Forum settings'		=>	'Forum instellingen',
+'Categories'			=>	'Categorieën',
 'Board'					=>	'Board',
 'Board structure'		=>	'Board structure',
 'Censoring'				=>	'Censoring',
@@ -1601,7 +1601,7 @@ $lang = array(
 'Groups'				=>	'Groups',
 'Permissions'			=>	'Permissions',
 'Bans'					=>	'Bans',
-'Settings'				=>	'Settings',
+'Settings'				=>	'Instellingen',
 'Global'				=>	'Global',
 'Registration'			=>	'Registration',
 'Email'					=>	'Email',
@@ -1630,12 +1630,12 @@ $lang = array(
 //
 
 'Admin'					=>	'Admin',
-'Go back'				=>	'Go back',
+'Go back'				=>	'Ga terug',
 'Update'				=>	'Update',
-'Add'					=>	'Add',
-'Remove'				=>	'Remove',
-'Yes'					=>	'Yes',
-'No'					=>	'No',
+'Add'					=>	'Toevoegen',
+'Remove'				=>	'Verwijderen',
+'Yes'					=>	'Ja',
+'No'					=>	'Nee',
 'here'					=>	'here',
 'Action'				=>	'Action',
 'Maintenance mode'		=>	'maintenance mode', // Used for link text in more than one file
