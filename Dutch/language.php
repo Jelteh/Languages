@@ -271,7 +271,7 @@ $lang = array(
 'InnoDB off'					=>	'InnoDB does not seem to be enabled. Please choose a database layer that does not have InnoDB support, or enable InnoDB on your MySQL server',
 'Administrators'				=>	'Administrators',
 'Moderators'					=>	'Moderators',
-'Guests'						=>	'Guests',
+'Guests'						=>	'Gasten',
 'Members'						=>	'Members',
 'New member'					=>	'New member',
 'Maintenance message'			=>	'The forums are temporarily down for maintenance. Please try again in a few minutes.',
@@ -733,7 +733,7 @@ $lang = array(
 'Registration flood'		=>	'Een nieuwe gebruiker heeft zich in het afgelopen uur met hetzelfde IP adres als jou geregistreerd. Om spam te voorkomen moet je minstens één uur wachten voordat je je met hetzelfde IP adres kunt registeren. Excuses voor het ongemak.',
 'Agree'						=>	'Akkoord',
 'Cancel'					=>	'Annuleren',
-'Register legend'			=>	'Vul de ontbrekende gegevens in',
+'Register legend'			=>	'Vul de onderstaande gegevens in',
 
 //
 // Form validation stuff (some of these are also used in post.php)
